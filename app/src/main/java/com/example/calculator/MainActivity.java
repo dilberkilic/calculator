@@ -15,6 +15,7 @@ import org.mariuszgromada.math.mxparser.Expression;
 
 public class MainActivity extends AppCompatActivity {
     EditText display;
+    Boolean equalOpen =true;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -36,6 +37,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void anyButton(View view) {
+
+        if(equalOpen){
+            display.setText("");
+            equalOpen=false;
+        }
         switch (view.getId()){
             case R.id.clear: display.setText(""); break;
             case R.id.brackets:addBrackets(); break;
@@ -44,6 +50,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.six:updateDisplay("6"); break;
             case R.id.five:updateDisplay("5"); break;
             case R.id.four:updateDisplay("4"); break;
+            case R.id.nine:updateDisplay("9"); break;
+            case R.id.eight:updateDisplay("8"); break;
             case R.id.three:updateDisplay("3"); break;
             case R.id.two:updateDisplay("2"); break;
             case R.id.one:updateDisplay("1"); break;
@@ -76,16 +84,17 @@ public class MainActivity extends AppCompatActivity {
     private void calculateTheResult() {
 
         String text=display.getText().toString();
-        String reText=text.replace("÷","/");
-        reText=text.replace("x","*");
+        String reText=text.replaceAll("÷","/");
+        reText=text.replaceAll("x","*");
         Expression ifade=new Expression(reText);
         String result=String.valueOf(ifade.calculate()).toString();
-        if(result.equals("Nan")){
+        if(!result.equals("NaN")){
             display.setText(result);
             display.setSelection(result.length());
         }else{
-
+             showToast("HATALI GİRİŞ YAPILDI !!!");
         }
+        equalOpen=true;
     }
 
     private void updateDisplayThreeZero() {
