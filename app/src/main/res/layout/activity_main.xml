@@ -11,7 +11,7 @@
         android:id="@+id/display"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         android:layout_marginBottom="630dp"
         android:layout_weight="1"
         android:autofillHints="false"
@@ -87,7 +87,6 @@
                 android:textSize="24sp"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -104,7 +103,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
 
@@ -122,7 +120,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -139,7 +136,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
         </TableRow>
@@ -162,7 +158,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -179,7 +174,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -196,7 +190,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -213,7 +206,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
         </TableRow>
 
@@ -235,7 +227,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -252,7 +243,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
 
@@ -270,7 +260,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -287,7 +276,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
         </TableRow>
 
@@ -309,7 +297,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -326,7 +313,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -343,7 +329,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -360,7 +345,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
         </TableRow>
 
@@ -382,7 +366,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -399,7 +382,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -416,7 +398,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
 
             <Button
@@ -433,7 +414,6 @@
                 android:textColor="@color/black"
                 app:cornerRadius="500dp"
                 app:strokeColor="@color/black"
-                app:strokeRadius="90dp"
                 app:strokeWidth="2dp" />
         </TableRow>
     </TableLayout>
